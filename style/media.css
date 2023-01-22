@@ -1,0 +1,172 @@
+@media (max-width:1140px) {
+    .course .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course_items {
+        min-width: unset;
+        text-align: center;
+    }
+
+    .course_img {
+        max-width: 500px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .card_image {
+        max-width: 450px;
+    }
+}
+
+@media (max-width:900px) {
+    .banner .container img {
+        display: none;
+    }
+
+    .mobile_app-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .credit_items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner_title {
+        text-align: center;
+    }
+
+    .card .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .header_nav .container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .mobile_apps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tutorial {
+        max-height: unset;
+    }
+
+    .business {
+        max-height: unset;
+    }
+}
+
+@media (max-width:620px) {
+    .course_items {
+        max-width: 310px;
+    }
+}
+
+@media (max-width:586px) {
+    .header_nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .course_img {
+        max-width: 400px;
+    }
+}
+
+@media (max-width:440px) {
+    .ggle-play {
+        height: 35px;
+    }
+
+    .business_img {
+        display: none;
+    }
+
+    .tutorial_img {
+        display: none;
+    }
+
+    .app-store {
+        height: 35px;
+    }
+
+    .course_img {
+        max-width: 290px;
+    }
+
+    .card_image {
+        max-width: 300px;
+    }
+
+    .mobile_app-big-item-img {
+        width: 280px;
+    }
+
+    .business_block {
+        align-items: center;
+        text-align: center;
+    }
+
+    .tutorial_block {
+        align-items: center;
+        text-align: center;
+    }
+
+    .mobile_app-small-item {
+        flex-direction: column;
+        padding: 49px 0px;
+        text-align: center;
+        gap: 10px;
+        max-width: 290px;
+    }
+
+    .mobile_app-small-item-title {
+        margin-right: 0px;
+        max-width: 290px;
+    }
+
+    .mobile_app-medium-item {
+        flex-direction: column;
+        padding: 49px 0px;
+        text-align: center;
+        gap: 10px;
+        max-width: 290px;
+    }
+
+    .mobile_app-medium-item-title {
+        margin-left: 0px;
+        max-width: 290px;
+    }
+
+    .ggle-play-mobile-app {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .app-store-mobile-app {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .card_items {
+        max-width: 300px;
+    }
+
+    .buy_btn {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:320px) {}
